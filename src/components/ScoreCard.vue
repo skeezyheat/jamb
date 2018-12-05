@@ -1,15 +1,21 @@
 <template>
   <div class="scorecard">
     <HeaderColumn/>
+    <Column direction="down"/>
+    <Column direction="neutral"/>
+    <Column direction="up"/>
+    <Column direction="call"/>
   </div>
 </template>
 
 <script>
 import HeaderColumn from "@/components/HeaderColumn.vue";
+import Column from "@/components/Column.vue";
 export default {
   name: "ScoreCard",
   components: {
-    HeaderColumn
+    HeaderColumn,
+    Column
   },
   data() {
     return {};
