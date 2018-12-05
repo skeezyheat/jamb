@@ -6,6 +6,7 @@ import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 require('../node_modules/roboto-fontface/css/roboto/roboto-fontface.css');
+require('../node_modules/materialize-css/dist/css/materialize.min.css');
 
 library.add(faArrowDown, faArrowUp);
 Vue.component('font-awesome-icon', FontAwesomeIcon);

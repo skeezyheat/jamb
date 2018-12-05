@@ -1,10 +1,12 @@
 <template>
-  <div class="scorecard">
-    <HeaderColumn/>
-    <Column direction="down"/>
-    <Column direction="neutral"/>
-    <Column direction="up"/>
-    <Column direction="call"/>
+  <div class="container">
+    <div class="scorecard">
+      <HeaderColumn/>
+      <Column direction="down"/>
+      <Column direction="neutral"/>
+      <Column direction="up"/>
+      <Column direction="call"/>
+    </div>
   </div>
 </template>
 
@@ -25,8 +27,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.scorecard {
-  display: flex;
-  flex-direction: row;
+.container {
+  .scorecard {
+    display: flex;
+    flex-direction: row;
+    max-width: 310px;
+    margin: 0 auto;
+  }
 }
 </style>

@@ -65,7 +65,7 @@ export default {
   .cell {
     border: 1px solid #000;
     text-align: center;
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
