@@ -25,10 +25,10 @@
       <span>Total</span>
     </div>
     <div class="cell">
-      <span>Min</span>
+      <span>Max</span>
     </div>
     <div class="cell">
-      <span>Max</span>
+      <span>Min</span>
     </div>
     <div class="cell">
       <span>Total</span>
@@ -37,10 +37,10 @@
       <span>S</span>
     </div>
     <div class="cell">
-      <span>F</span>
+      <span>Full</span>
     </div>
     <div class="cell">
-      <span>P</span>
+      <span>Four</span>
     </div>
     <div class="cell">
       <span>Y</span>
@@ -65,7 +65,11 @@ export default {
   .cell {
     border: 1px solid #000;
     text-align: center;
-    padding: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
   }
 }
 </style>
